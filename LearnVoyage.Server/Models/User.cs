@@ -4,6 +4,11 @@ namespace LearnVoyage.Server.Models;
 
 public class User
 {
-    int Id {get;private set;}
-    string Name {get;private set;}
+    public int Id { get; private set; }
+
+    public string? Name { get; private set; }
+
+    public string? Mail { get; private set; }
+    
+    public string? Password { get; private set; }
 }
