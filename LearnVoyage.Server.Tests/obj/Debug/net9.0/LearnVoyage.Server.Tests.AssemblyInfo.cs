@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("LearnVoyage.Server")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("LearnVoyage.Server.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ff72d798ce04e5b4a45c039f3e1d961ded0196c")]
-[assembly: System.Reflection.AssemblyProductAttribute("LearnVoyage.Server")]
-[assembly: System.Reflection.AssemblyTitleAttribute("LearnVoyage.Server")]
+[assembly: System.Reflection.AssemblyProductAttribute("LearnVoyage.Server.Tests")]
+[assembly: System.Reflection.AssemblyTitleAttribute("LearnVoyage.Server.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // MSBuild WriteCodeFragment クラスによって生成されました。
