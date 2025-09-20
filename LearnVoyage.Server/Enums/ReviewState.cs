@@ -1,6 +1,6 @@
 public enum ReviewState
 {
-    Pending,
+    NotStarted,
     Done,
     Missed,
     Rescheduled
