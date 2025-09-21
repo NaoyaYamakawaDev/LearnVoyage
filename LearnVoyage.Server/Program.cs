@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using LearnVoyage.Server.Data;
 using Microsoft.Extensions.Options;
-using LearnVoyage.Server.Service;
+using LearnVoyage.Server.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -27,6 +27,11 @@ if (!app.Environment.IsDevelopment())
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
+
+app.MapGet("/api/users", async (AppDbContext db) =>
+{
+    return await db.Users.ToListAsync();
+});
 
 app.UseHttpsRedirection();
 

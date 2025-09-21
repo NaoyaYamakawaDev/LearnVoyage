@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using LearnVoyage.Server.Data;
 using LearnVoyage.Server.Models;
 
-namespace LearnVoyage.Server.Service;
+namespace LearnVoyage.Server.Services;
 
 public class UserService
 {

@@ -1,4 +1,5 @@
 using LearnVoyage.Server.Enums;
+
 namespace LearnVoyage.Server.Models;
 
 public class Task
