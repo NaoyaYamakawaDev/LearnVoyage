@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LearnVoyage.Wasm")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0f96a3f6a462da84fac8fa637bc850b5f255deb4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aaed56ea625ae6ef10d2338730ede26167da9dca")]
 [assembly: System.Reflection.AssemblyProductAttribute("LearnVoyage.Wasm")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LearnVoyage.Wasm")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

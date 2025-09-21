@@ -1,0 +1,41 @@
+@page "/"
+@using System.Runtime.CompilerServices
+@inject HttpClient Http
+
+<h3>ユーザー一覧</h3>
+
+@if(users == null)
+{
+    <p>読み込み中...</p>
+}
+else
+{
+    <ul>
+    @foreach(var user in users)
+    {
+        <li>@user.Name (@user.Mail)</li>
+    }
+    </ul>
+}
+
+@code {
+    private List<User>? users;
+
+    protected override async Task OnInitializedAsync()
+    {
+        users = await Http.GetFromJsonAsync<List<User>>("api/users");
+    }
+
+    /* 
+    Entityはテーブルと1対1の完全版データをもつオブジェクト
+    DTOはEntityの軽量版というか必要最小限のデータしか持たないオブジェクト (password)持たない　画面表示用とかね
+    */
+
+    // DTOの定義　data transfer object 
+    public class User
+    {
+        public int UserId { get; set; }
+        public string Name { get; set; } = string.Empty;
+        public string Mail { get; set; } = string.Empty;
+    }
+}
