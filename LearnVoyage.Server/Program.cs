@@ -18,7 +18,21 @@ builder.Services.AddScoped<UserService>();
 // add db context to the container
 builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("AppDbcontext")));
 
+// cross origin resouce sharingの設定　異なるプロジェクト同士が連携するための設定local hostのwasmのapi通信を許可する
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(policy =>
+    {
+        policy.WithOrigins("http://localhost:5172")
+        .AllowAnyHeader()
+        .AllowAnyMethod();
+    });
+});
+
 var app = builder.Build();
+
+// corsの有効
+app.UseCors();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
