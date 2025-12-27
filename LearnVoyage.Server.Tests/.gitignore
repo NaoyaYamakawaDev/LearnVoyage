@@ -5,3 +5,4 @@
 *.suo
 .DS_Store
 wwwroot/_framework/
+wwwroot/lib/
