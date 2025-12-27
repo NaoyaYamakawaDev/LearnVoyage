@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LearnVoyage.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2e2b130d551b14d17bfb6a536131582e0dcec48")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6693ad75f5279d6d2917bbe58aa7b4cc1f1c3e0e")]
 [assembly: System.Reflection.AssemblyProductAttribute("LearnVoyage.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LearnVoyage.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
