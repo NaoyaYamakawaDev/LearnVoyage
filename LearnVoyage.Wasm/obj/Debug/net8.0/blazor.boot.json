@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "LearnVoyage.Wasm",
   "resources": {
-    "hash": "sha256-rSzPMM1LMpikYyE++lMfvBhbj1odqc9jB6GGifuTMb8=",
+    "hash": "sha256-ify3/iSHmk8ELsnhVaN46lbkSp7Q0rRLuQi2SGMKbj4=",
     "jsModuleNative": {
       "dotnet.native.8.0.8.dv4tdyhf0w.js": "sha256-juC5sA7gHTLXFEhAKgdM2/RavswpwCtDfjYGsAz2FXg="
     },
@@ -208,10 +208,10 @@
       "mscorlib.wasm": "sha256-Gz8PyW2/fwihe5ul81OwmRUrU71r+KtbyRw6xlOGD+Q=",
       "netstandard.wasm": "sha256-jMTqIQzoDS810lyhZpMO5eEC36EzntXqSVn+2qwkOMQ=",
       "System.Private.CoreLib.wasm": "sha256-NFj5WE5VLP2LptZIRJCUIc1AMk06FmxpsSILfPISwAw=",
-      "LearnVoyage.Wasm.wasm": "sha256-4FlSNoHT7q95UYLm/Sf8P8K61gaXvLN1dp0VzJdLeEI="
+      "LearnVoyage.Wasm.wasm": "sha256-yBVAmAfRiG3+KXcKa1MN/vmTc1DbB+piKCSfrMBY+xk="
     },
     "pdb": {
-      "LearnVoyage.Wasm.pdb": "sha256-hgx+9x5OrkiCe8gLmHUXwLqbWx3COM/IgGZ4O98a+Rk="
+      "LearnVoyage.Wasm.pdb": "sha256-xRPXGm8UxrdXK3wfSJERWzalTrOAGzYd2oWo6eg9zdU="
     }
   },
   "cacheBootResources": true,
