@@ -1030,4 +1030,3 @@
 /Users/yamakawanaoya/Desktop/LearnVoyage/LearnVoyage.Wasm/obj/Debug/net8.0/refint/LearnVoyage.Wasm.dll
 /Users/yamakawanaoya/Desktop/LearnVoyage/LearnVoyage.Wasm/obj/Debug/net8.0/LearnVoyage.Wasm.pdb
 /Users/yamakawanaoya/Desktop/LearnVoyage/LearnVoyage.Wasm/obj/Debug/net8.0/ref/LearnVoyage.Wasm.dll
-/Users/yamakawanaoya/Desktop/LearnVoyage/LearnVoyage.Wasm/obj/Debug/net8.0/scopedcss/Layout/CommonSideBar.razor.rz.scp.css
